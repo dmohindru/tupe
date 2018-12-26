@@ -1,0 +1,18 @@
+#に1文字削除ではないため、\はシェルが解釈する
+そのため下記のごとくなる
+
+Since it is not one character deleted for #, \ is interpreted by the shell
+Therefore, it will be as follows
+
+
+date
+2005年 12月 12日 月曜日 23:25:57 JST
+Monday, December 12, 2005 23: 25: 57 JST
+
+#date
+
+\#date
+-bash: #date: command not found
+
+\\#date
+-bash: \#date: command not found
