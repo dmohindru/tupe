@@ -1,0 +1,5 @@
+$ who | sort
+this command will print users on system in a sorted manner. Output of who is sent to input of sort
+
+$ who >sort
+This command will redirect output of who into file named sort

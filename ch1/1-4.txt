@@ -1,0 +1,38 @@
+# ls junk
+This will list only junk file
+where as 
+# echo junk
+Print junk on console
+
+# ls /
+This will list the root folder
+where as
+# echo /
+Prints / on console
+
+# ls 
+This will list current folder
+where as 
+# echo 
+does nothing
+
+# ls *
+This will list all file and folder of current working folder and sub folder in current working folder.
+where as 
+# echo *
+Prints all the files/folders in current folder on console
+
+# ls '*'
+Here quotes "'" around * make it loose its special meaning look for file/folder named * to be listed
+where as 
+# echo '*'
+prints * on console
+
+
+
+
+
+
+
+# echo '*'
+Prints * on console. Quote around * loose its special meaning

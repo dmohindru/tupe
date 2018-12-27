@@ -1,0 +1,16 @@
+$ wc temp >temp
+As seen in excercise 1-5 >file is evaluated first.
+So >temp first create empty temp file overwriting existing file temp.
+then 'wc temp' reads empty file and outputs
+0 0 0 temp
+
+Same can be verified by creating empty file empty_temp and running command
+wc empty_temp
+0 0 0 empty_temp
+
+
+$ woh >temp
+Again >temp is evaluated first and empty file is created
+shell would complaint about woh command not found and print error message
+on console and temp will remain empty file. 
+

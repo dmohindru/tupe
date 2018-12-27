@@ -1,0 +1,2 @@
+date\@ is interpreted as date@ in shell.
+and shell complaints about date@ not found.

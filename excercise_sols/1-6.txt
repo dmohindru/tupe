@@ -1,7 +1,10 @@
 $wc temp >temp
 
 シェルによってwcの実行前に>tempが評価され、tempが新規作成されるため
+Since temp is evaluated by shell before wc is executed and new temp is created
 
 $woh >temp
 
 シェルによってtempは新規作成されるが、wohは実行されない
+temp is newly created by the shell, but woh is not executed
+

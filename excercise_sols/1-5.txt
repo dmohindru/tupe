@@ -1,3 +1,4 @@
 $ls >ls.out
 
 において>ls.outはシェルによってlsの実行前に評価されるため
+> Ls.out is evaluated by the shell before executing ls

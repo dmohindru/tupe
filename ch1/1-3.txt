@@ -1,0 +1,4 @@
+# ls /usr/games
+espdiff  gnome-mahjongg  gnome-mines  gnome-sudoku  sol
+
+for ubuntu 14.04 LTS

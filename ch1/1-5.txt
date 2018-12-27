@@ -1,0 +1,3 @@
+$ ls > ls.out
+First Output redirection > will create a file ls.out in current folder.
+So when ls command is executed is also list generated file ls.out in its output.

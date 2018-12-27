@@ -1,0 +1,9 @@
+#date will be ignored as it converts to comments
+
+\#date
+\ being a escape charcter as is not interpreted by shell. So command 
+reduces to #date
+
+\\#date
+\ being a escape charcter as is not interpreted by shell. So command 
+reduces to \#date

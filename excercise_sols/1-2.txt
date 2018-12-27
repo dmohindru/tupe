@@ -1,5 +1,5 @@
-#に1文字削除ではないため、\はシェルが解釈する
-そのため下記のごとくなる
+#に1文字削除ではないため、\はシェルが解釈する -- Since it is not one character deleted for #, \ is interpreted by the shell
+そのため下記のごとくなる -- Therefore, it will be as follows
 
 Since it is not one character deleted for #, \ is interpreted by the shell
 Therefore, it will be as follows
