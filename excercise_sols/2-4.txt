@@ -3,5 +3,9 @@ $find . -name 'file' -print
 
 duの副作用を利用する方法では、本来のファイル検索を実施するには冗長な処理が多く、十分な実行速度を出すことができない
 
-既存ツールの副作用を利用しなければ新機能を実現できない場合は、新しいツールの作成を検討するべきである
+In the method that uses side effects of du, many redundant processes are required 
+to perform the original file search, and it is impossible to achieve a sufficient execution speed
 
+
+既存ツールの副作用を利用しなければ新機能を実現できない場合は、新しいツールの作成を検討するべきである
+If new functions can not be realized unless side effects of existing tools are utilized, it should consider creating new tools

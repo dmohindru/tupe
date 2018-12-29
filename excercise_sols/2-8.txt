@@ -1,13 +1,20 @@
 1.cp -r
 長所：cpコマンドにおいてファイルとディレクトリを区別を必要とせずコピーを実行でき、かつユーザの意思でディレクトリコピーの可否を決定できる
+Advantages: Copy can be executed without distinguishing between files 
+and directories in the cp command, and it is possible for the user to decide whether to copy the directory
 
 2.rcp
 長所：ユーザの意思でディレクトリコピーの可否を決定できる
+Advantages: It is possible for users to decide whether to copy a directory
 短所：コピーに際し、ディレクトリとファイルを使い分ける必要がある
+Disadvantage: When copying, it is necessary to use directory and file properly
 
 3.cp
 長所：cpコマンドにおいてファイルとディレクトリを区別を必要とせずコピーを実行できる
+Advantages: Copy can be executed without distinguishing files and directories from the cp command
 短所：ユーザの意思でディレクトリコピーの可否を決定できない
+
+Disadvantage: It is impossible for the user's intention to decide whether to copy the directory
 
 有利になる機能
 mv,rm

@@ -1,0 +1,11 @@
+1. cp -r
+Advantages: Copy can be executed without distinguishing between files 
+and directories in the cp command, and it is possible for the user to decide whether to copy the directory
+
+2. rcp
+Advantages: It is possible for users to decide whether to copy a directory
+Disadvantage: When copying, it is necessary to use directory and file properly
+
+3. cp 
+Advantages: Copy can be executed without distinguishing files and directories from the cp command
+Disadvantage: It is impossible for the user's intention to decide whether to copy the directory

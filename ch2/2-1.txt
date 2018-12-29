@@ -1,0 +1,5 @@
+$ ed and then ctrl+d
+when we press ctrl+d to ed. Program terminates the second time we press ctrl+d
+
+$ ed <file
+Program just simply terminates by reading eof of file 

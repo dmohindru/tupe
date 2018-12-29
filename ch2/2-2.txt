@@ -1,0 +1,2 @@
+
+ls gets the information held by the dir directory as a file and lists it

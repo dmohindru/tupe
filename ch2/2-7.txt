@@ -1,0 +1,9 @@
+mv junk junk1
+This command rename junk to junk1. But the file remains the same on physical disk.
+Their inode number remains same.
+
+cp junk junk1
+rm junk
+cp command creates new file named junk1
+rm command removes old file named junk
+junk and junk1 would have different inode number

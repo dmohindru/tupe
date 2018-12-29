@@ -1,0 +1,5 @@
+How?
+Maybe by getting current directory, then its parent and its parent and so
+till it gets to root of file system. Then prints the whole path.
+
+I guess so. :-(

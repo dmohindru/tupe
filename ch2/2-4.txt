@@ -1,0 +1,6 @@
+du -a | grep ...
+This command involved running two processes. So this would involve more memory and would definately
+run slower than single command like 
+find. 
+
+It would be better to build a new tool than to use side effect of old one.

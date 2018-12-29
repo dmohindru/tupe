@@ -1,5 +1,6 @@
 ed
 	通常のctl-dはqと同じ。入力モードのctl-dは.と同じ。
+	The usual ctl-d is the same as q. Ctl-d in input mode is the same as for.
 
 $ed<file
 ...
@@ -7,3 +8,5 @@ $
 
 edはfile内容をコマンドとして読み込む。
 その後、edはファイルから読み込む文字が無くなれば終了する。
+
+ed reads file contents as commands.
