@@ -1,1 +1,3 @@
 utmp構造体のut_tvを取得すれば分かる
+
+It can be known by getting ut_tv of the utmp structure

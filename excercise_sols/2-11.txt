@@ -1,3 +1,7 @@
 /dev/ttyは特定ユーザのログイン端末とリンクすると他ユーザが利用することができなくなる。
 
+If / dev / tty is linked with the login terminal of a specific user, it becomes impossible for other users to use it.
+
 もし使用許可がユーザのログイン端末と同様であれば、所有者(root)しか標準入力から読み込むことができなくなる。
+
+If the usage permission is similar to the login terminal of the user, only the owner (root) can read from the standard input.

@@ -1,0 +1,5 @@
+/dev/mt0 - tape drive (block device)
+/dev/rmt0 - tape drive (character device)
+
+Advantage of having sub directories in dev folder can be that a system
+can group similar type of devices in logical manner.

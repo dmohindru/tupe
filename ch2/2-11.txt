@@ -1,0 +1,4 @@
+If /dev/tty is link to our login terminal. Then in that case
+only we can use the /dev/tty. Other user would not be able to read
+from this device though they would be able to write to this device as per
+following permissions rw--w--w-

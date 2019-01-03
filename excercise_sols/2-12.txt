@@ -1,4 +1,7 @@
 $write user
 
 1.userと同一のut_userからuserのutmp構造体を特定し、ut_lineを取得する
+
+Identify utmp structure of user from ut_user same as user and get ut_line
 2.ut_lineで特定されるttyデバイスとメッセージを入出力する
+ Input and output of messages with tty device identified by "_ut_line"

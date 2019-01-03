@@ -1,1 +1,2 @@
 ddを用いて512ブロックサイズに変換することで読み込んでいる
+Reading by converting to 512 block size using dd

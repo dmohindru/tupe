@@ -1,0 +1,3 @@
+It can known by reading ut_tv nested structure within
+utmp structure which help us identify who is currently using
+the system.

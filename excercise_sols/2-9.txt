@@ -1,5 +1,12 @@
 /dev/mt0	DEC TU10/TM11 テープドライブ(ブロックデバイス)
+            DEC TU 10 / TM 11 tape drive (block device)
+
+
 /dev/rmt0	DEC TU10/TM11 テープドライブ(キャラクタデバイス)
+            DEC TU 10 / TM 11 tape drive (character device)
 
 サブディレクトリを持つ利点
 デバイスファイルを分類整理しておくことで、ファイルを探しやすい
+
+Benefits of having subdirectories
+By classifying and organizing device files, it is easy to find files
