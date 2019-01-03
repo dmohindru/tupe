@@ -10,3 +10,4 @@ edはfile内容をコマンドとして読み込む。
 その後、edはファイルから読み込む文字が無くなれば終了する。
 
 ed reads file contents as commands.
+After that, ed ends when there are no more characters to read from the file.
