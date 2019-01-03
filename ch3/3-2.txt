@@ -1,0 +1,5 @@
+$ ls .*
+ls will be executed for file or directory names starting with . and containing any number
+of characters following.
+In normal case any directory will be containing two files named .(current directory) and ..(parent directory)
+So ls will be executed 2 times, one for current directory and second time for parent directory

@@ -38,5 +38,8 @@ While these again have greater still,
  and greater still, and so on.
 
 1番目ではcatの出力をprの入力に切り換えている
+At the 2nd, the output of cat is switched to the input of pr
 2番目ではprの標準入力をpoemファイルに切り換えている
+At th th, switching standard input of pr to poem file
 3番目ではprはファイルpoemを引数に取って出力している
+In pr, the file poem is taken as an argument and outputted

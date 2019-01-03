@@ -1,0 +1,9 @@
+1. # cat file | pr
+2. # pr <file
+3. # pr file
+
+All the above command have same effect i.e. it print the contents of file.
+But way pr command takes its input is different.
+In option 1 'pr' command takes its input from output of cat command (pipes).
+In option 2 'pr' command takes its input from shell redirection.
+In option 3 'pr' command takes its input as argument.  

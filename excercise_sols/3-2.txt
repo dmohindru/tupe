@@ -46,3 +46,4 @@ sources.list
 unixenv
 
 lsを(.)、(..)に対して実行したことになる
+It means that ls has been executed for (.), (..)
