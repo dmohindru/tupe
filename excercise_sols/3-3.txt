@@ -11,6 +11,7 @@ $grep $ 3-3/*
 3-3/grep9:grep '\"$'
 3-3/test:test
 1.行末の空文字列にマッチしているファイルが表示される
+Files matching the empty string at the end of the line are displayed
 
 $grep \$ 3-3/*
 3-3/grep1:grep \$
@@ -25,7 +26,9 @@ $grep \$ 3-3/*
 3-3/grep9:grep '\"$'
 3-3/test:test
 1.シェルによってgrepには$が引数として渡される
+Shell passes $ as an argument to grep
 2.行末の空文字列にマッチしているファイルが表示される
+Files matching the empty string at the end of the line are displayed
 
 $grep \\$ 3-3/*
 3-3/grep1:grep \$
@@ -37,7 +40,9 @@ $grep \\$ 3-3/*
 3-3/grep8:grep "\$"
 3-3/grep9:grep '\"$'
 1.シェルによってgrepには\$が引数として渡される
+Shell passes \$ as an argument to grep
 2.エスケープ(\)によってメタキャラクタの意味が失われ、$にマッチしているファイルが表示される
+The escape (\) causes the metacharacter's meaning to be lost, and files matching $ are displayed
 
 $grep \\\$ 3-3/*
 3-3/grep1:grep \$
@@ -49,7 +54,9 @@ $grep \\\$ 3-3/*
 3-3/grep8:grep "\$"
 3-3/grep9:grep '\"$'
 1.シェルによってgrepには\$が引数として渡される
+Shell passes \ $ as an argument to grep
 2.エスケープ(\)によってメタキャラクタの意味が失われ、$にマッチしているファイルが表示される
+The escape (\) causes the metacharacter's meaning to be lost, and files matching $ are displayed
 
 $grep '\$' 3-3/*
 3-3/grep1:grep \$
@@ -61,15 +68,20 @@ $grep '\$' 3-3/*
 3-3/grep8:grep "\$"
 3-3/grep9:grep '\"$'
 1.シェルによってgrepには\$が引数として渡される
+Shell passes \ $ as an argument to grep
 2.エスケープ(\)によってメタキャラクタの意味が失われ、$にマッチしているファイルが表示される
+The escape (\) causes the metacharacter's meaning to be lost, and files matching $ are displayed
 
 $grep '\'$' 3-3/*
 >
 1.単一引用符(')が閉じていない
+Single quotes (') are not closed
 
 $grep \\ 3-3/*
 grep: バックスラッシュが残っています
+Backslash is left
 1.バックスラッシュだけではマッチしない
+It does not match with backslash alone
 
 $grep \\\\ 3-3/*
 3-3/grep1:grep \$
@@ -82,7 +94,9 @@ $grep \\\\ 3-3/*
 3-3/grep8:grep "\$"
 3-3/grep9:grep '\"$'
 1.シェルによってgrepには\\が引数として渡される
+The shell passes \ \ as an argument to grep
 2.エスケープ(\)によってメタキャラクタの意味が失われ、\にマッチしているファイルが表示される
+The escape (\) causes the meaning of the metacharacter to be lost, and the file matching \ is displayed
 
 $grep "\$" 3-3/*
 3-3/grep1:grep \$
@@ -97,14 +111,19 @@ $grep "\$" 3-3/*
 3-3/grep9:grep '\"$'
 3-3/test:test
 1.シェルによって二重引用符(")が解釈され、\$のエスケープ文字(\)が削られる
+The double quotation mark (") is interpreted by the shell, and the escape character (\) of \ $ is deleted
 2.シェルによってgrepには$が引数として渡される
+She passes $ as an argument to grep
 3.行末の空文字列にマッチしているファイルが表示される
+Files matching the empty string at the end of the line are displayed
 
 $grep '"$' 3-3/*
 3-3/grep10:grep "$"
 3-3/grep8:grep "\$"
 1.シェルによってgrepには"$が引数として渡される
+The shell passes "$ as an argument to grep
 2.行末の二重引用符(")にマッチしているファイルが表示される
+The file matching the double quote (") at the end of the line is displayed
 
 $grep "$" 3-3/*
 3-3/grep1:grep \$
@@ -119,4 +138,6 @@ $grep "$" 3-3/*
 3-3/grep9:grep '\"$'
 3-3/test:test
 1.シェルによってgrepには$が引数として渡される
+Shell passes $ as an argument to grep
 2.行末の空文字列にマッチしているファイルが表示される
+Files matching the empty string at the end of the line are displayed
