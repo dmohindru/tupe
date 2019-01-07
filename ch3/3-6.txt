@@ -1,0 +1,2 @@
+/ has a special meaing in unix enviornment used to seperate components for path.
+Hence there is no way / can be inserted into file name of a file. 

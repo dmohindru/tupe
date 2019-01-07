@@ -1,0 +1,10 @@
+cat x y >y
+cat complaints about file x not found if it does not exists.
+cat would also complaints about file y which says input file cannot be output file
+
+cat x >>x
+cat would complaints about file x which says input file cannot be output file
+
+In conclusion
+cat compares the inode number and the device ID with the input and output, outputs an 
+error if both are the same, and ignores the input file

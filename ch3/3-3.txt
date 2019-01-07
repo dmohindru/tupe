@@ -1,0 +1,37 @@
+grep \$
+Shell passes $ as an argument to grep
+With $ argument files matching the empty string at the end of the line are displayed
+
+grep \\$
+Shell passes \$ as an argument to grep
+The escape (\) causes the metacharacter's meaning to be lost, and files matching $ are displayed
+
+grep \\\$
+Shell passes \ and $ as an argument to grep
+The escape (\) causes the metacharacter's meaning to be lost, and files matching $ are displayed
+
+grep '\$'
+Shell passes \$ as an argument to grep
+The escape (\) causes the metacharacter's meaning to be lost, and files matching $ are displayed
+
+grep '\'$'
+Single quotes are not closed hence command not executed properly
+
+grep \\
+Trailing backslash error
+
+grep \\\\
+Shell pass \\ as an argument to grep
+The escape (\) causes the metacharacter's meaning to be lost, and files matching \ are displayed
+
+grep "\$"
+The double quotation mark (") is interpreted by the shell, and the escape character (\) of \ $ is deleted
+Shell passes $ as an argument to grep
+
+grep '"$'
+The shell passes "$ as an argument to grep
+The file matching the double quote (") at the end of the line is displayed
+
+grep "$"
+Shell passes $ as an argument to grep
+With $ argument files matching the empty string at the end of the line are displayed

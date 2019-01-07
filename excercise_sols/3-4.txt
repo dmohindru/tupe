@@ -1,6 +1,10 @@
 $grep -e -... file
 
 "-"で始まるパターンを指定する場合は上記のようにする
-eオプションにより以後の文字列をgrepのオプションではなく、パターンとして指定している
-ハイフン(-)を引用符("')で括ってもgrepには引用符がはずされた文字列が渡されるため、オプションとして解釈される
+To specify a pattern beginning with "-", do as above
 
+eオプションにより以後の文字列をgrepのオプションではなく、パターンとして指定している
+With the e option, the following character strings are specified as patterns instead of grep options
+
+ハイフン(-)を引用符("')で括ってもgrepには引用符がはずされた文字列が渡されるため、オプションとして解釈される
+Even if you enclose a hyphen (-) with quotation marks ("'), it is interpreted as an option because grep is passed a string with unquoted marks

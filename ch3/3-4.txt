@@ -1,0 +1,5 @@
+By using grep as
+grep '-' file.txt (This worked for me)
+or 
+grep -e - file.txt
+With the e option, the following character strings are specified as patterns instead of grep options

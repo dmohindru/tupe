@@ -1,4 +1,6 @@
 $echo */*
 
 カレントディレクトリ下のサブディレクトリ内のファイルがすべて表示される
+All the files in the subdirectory under the current directory are displayed
 表示はサブディレクトリの英字順->ファイル名の英字順である
+Display is alphabetical order of subdirectories -> alphabetical order of file names

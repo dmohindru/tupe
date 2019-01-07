@@ -1,0 +1,29 @@
+In fact quite a many file are shell scripts in /bin/ directory of 
+ubuntu distribution
+
+$: cd /bin
+$: file * | grep ASCII
+/bin/bzdiff:                         POSIX shell script, ASCII text executable
+/bin/bzexe:                          POSIX shell script, ASCII text executable
+/bin/bzgrep:                         POSIX shell script, ASCII text executable
+/bin/bzmore:                         POSIX shell script, ASCII text executable
+/bin/cgroups-mount:                  POSIX shell script, ASCII text executable
+/bin/cgroups-umount:                 POSIX shell script, ASCII text executable
+/bin/gunzip:                         Bourne-Again shell script, ASCII text executable
+/bin/gzexe:                          Bourne-Again shell script, ASCII text executable
+/bin/lesspipe:                       POSIX shell script, ASCII text executable
+/bin/red:                            POSIX shell script, ASCII text executable
+/bin/running-in-container:           POSIX shell script, ASCII text executable
+/bin/uncompress:                     Bourne-Again shell script, ASCII text executable
+/bin/unicode_start:                  POSIX shell script, ASCII text executable
+/bin/which:                          POSIX shell script, ASCII text executable
+/bin/zcat:                           Bourne-Again shell script, ASCII text executable
+/bin/zcmp:                           Bourne-Again shell script, ASCII text executable
+/bin/zdiff:                          Bourne-Again shell script, ASCII text executable
+/bin/zegrep:                         Bourne-Again shell script, ASCII text executable
+/bin/zfgrep:                         Bourne-Again shell script, ASCII text executable
+/bin/zforce:                         Bourne-Again shell script, ASCII text executable
+/bin/zgrep:                          Bourne-Again shell script, ASCII text executable
+/bin/zless:                          Bourne-Again shell script, ASCII text executable
+/bin/zmore:                          Bourne-Again shell script, ASCII text executable
+/bin/znew:                           Bourne-Again shell script, ASCII text executable

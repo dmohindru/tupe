@@ -1,0 +1,3 @@
+rm *
+for rm, * has not meaning, its the shell with interprets * as all file in current folder.
+rm just deletes file given to it as arguments.

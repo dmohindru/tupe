@@ -1,3 +1,4 @@
 $rm *
 
 rmはシェルによって*が展開されたカレントディレクトリのファイルリストを受け取るだけであり、それが全ファイルであるかどうかの検証は行わないため
+Since rm only receives the file list of the current directory in which the * is expanded by the shell, it does not verify whether it is all files
