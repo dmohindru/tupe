@@ -1,0 +1,11 @@
+pr `grep -l cat *`
+Above command prints all the files that contains pattern cat in them
+
+lpr `grep -l cat *`
+Above command prints all the files that contains pattern cat in them on line printer
+
+file `grep -l cat *`
+Above command prints file type for all the files that contains pattern cat in them
+
+wc -l `grep -l cat *`
+Above command count line in all the files that contains pattern cat in them

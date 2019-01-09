@@ -1,10 +1,12 @@
 $`date`
 
-(予想)
+(予想) Expectation
 dateの実行結果が表示される
+The execution result of date is displayed
 
-(実際)
+(実際) In fact
 bash: 2005年: command not found
 
-(結論)
+(結論) (in conclusion)
 dateの実行結果を実行したように解釈される
+It is interpreted as if you executed the execution result of date

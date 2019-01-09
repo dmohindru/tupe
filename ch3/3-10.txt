@@ -1,0 +1,5 @@
+echo `echo \`date\``
+above command prints output of date command
+
+if ` are removed echo command prints output of command echo date.
+` allow more nested command within command.

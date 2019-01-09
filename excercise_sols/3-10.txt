@@ -2,8 +2,11 @@ $echo `echo \`date\``
 2005年 12月 30日 金曜日 16:21:32 JST
 
 dateの実行結果の文字列が内側echoによりエコーバックされ、その結果が外側のechoによってエコーバックされる
+Is echoed back by the inner echo and the result is echoed back by the outer echo
 
 $echo `echo `date``
 date
 
 内側echoの結果は不定となり、文字列dateがエコーバックされる
+
+The result of inner echo becomes undefined and the character string date is echoed back
