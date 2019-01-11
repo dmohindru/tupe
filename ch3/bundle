@@ -1,10 +1,11 @@
 #!/bin/sh
 
 echo '# To unbundle, sh this file'
-for i
+for i in `ls *`
 do
 	echo "echo $i 1>&2"
 	echo "cat >$i <<'End of $i'"
 	cat $i
+	echo
 	echo "End of $i"
 done
