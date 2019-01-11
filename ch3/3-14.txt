@@ -1,0 +1,10 @@
+A)
+Second version 'here document' would be easy to maintain. Since we have to
+maintain only one document. But in case of original document, we have to 
+maintain two document.
+1. file containing phone data
+2. script file containing commands to process phone data.
+
+B)
+Original version would be good for general service as data and commands(script file)
+are decoupled and thus can cater or modified for indivisual need.

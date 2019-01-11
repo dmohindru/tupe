@@ -1,4 +1,7 @@
-答え：
+答え： answer:
 pickをシェルファイルに組み込まない
-理由：
+Do not include pick in shell file
+理由： the reason:
 pickを組み込まず、$*によってシェルファイルの引数をループ変数に利用し、シェルファイルの引数をpickによって選択するようにすれば、任意のファイルに対してdiffループを実行できるため
+If you do not incorporate pick, you can use shell file arguments as loop variables with $ * 
+and select shell file arguments by pick, you can execute diff loop on arbitrary files

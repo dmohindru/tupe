@@ -1,7 +1,12 @@
-(予想)
+(予想) Expectation
 pickに対する応答が得られないためプロセスは終了しない
-(実際)
-検証できない
+Since the response to pick is not obtained, the process does not end
+
+(実際) In fact
+検証できない 
+Can not verify
 
 (結論)
+in conclusion
 rmで検証したところ予想通り応答待ちのままプロセスは終了しなくなった
+When I verified with rm, the process ceased to finish while waiting for a response as expected

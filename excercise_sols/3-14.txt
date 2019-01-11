@@ -1,2 +1,6 @@
 保守に関してはユーザ管理がphonebook内で閉じており、411コマンドに影響しないため元の版の方が優れている
+Regarding maintenance, the user management is closed within the phonebook, 
+and the original version is better because the 411 command is not affected
 公共利用に関しても、411コマンドからメールアドレスが特定されることが無いため、元の版の方が優れている
+Regarding public use, since the mail address is not specified from the 411 command, 
+the original version is better

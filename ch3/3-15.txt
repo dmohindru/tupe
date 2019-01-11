@@ -1,0 +1,4 @@
+if we put pick in shell file to make shell script intractive. Shell file will not be able to
+run by its own.
+
+But if we use shell file argument $* then we can use loop in shell for arbitrary file list.
