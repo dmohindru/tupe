@@ -1,0 +1,7 @@
+# Well did not really under stood this script
+
+for i in $1/*
+do
+	cat $i || out $i
+	cat $i && bundle $i
+done

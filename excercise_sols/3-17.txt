@@ -1,7 +1,9 @@
 $out bin >junk 2>/dev/null
 
 上記のようにoutを実行すればよい
+You can execute out as above
 シェルファイルoutの中身は下記になる
+The contents of the shell file out are as follows
 
 
 for i in $1/*
